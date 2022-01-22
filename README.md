@@ -1,4 +1,12 @@
+`Reference` : `The Official CompTIA Network+ Study Guide`
 # 𝐍𝐞𝐭𝐰𝐨𝐫𝐤+ 𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐍𝐨𝐭𝐞𝐬
+
+## 𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠 𝐭𝐢𝐦𝐞
+
+- Started: `22nd Jan 2022`
+- End date: ``
+
+`𝟐𝟐𝐧𝐝 𝐉𝐚𝐧 𝟐𝟎𝟐𝟐`
 
 ## 𝐀𝐢𝐦
 
@@ -83,5 +91,23 @@
 - At each layer of data transmission except physical layer, the sending node adds a header to the data payload, forming a chunk of data called as protocol data unit (PDU). And the process is known as encapsulation.
 
 ![image](https://user-images.githubusercontent.com/68887544/150631014-d03f37a7-466c-4b2d-865b-7d625b6b04a3.png)
+
+- The receiving node performs a reverse process called as de-encapsulation or decapsulation
+
+
+## 𝐏𝐡𝐲𝐬𝐢𝐜𝐚𝐥 𝐋𝐚𝐲𝐞𝐫 (𝐋𝐚𝐲𝐞𝐫 𝟏)
+
+- A node is the term used to describe devices that can communication on a network.
+- On a wireless network, the term is called as station.
+- Term host is used in TCP/IP networking
+- Physical layer is responsible for physically transform data either using cables or wireless using radio transmission.
+- Devices operating at physical layers are:
+    - Transceivers : it is a part of network interface that sends and receives signals over the network media
+    - Repeater : A device that amplifies electronic signal to extend the maximum allowable distance for a media type.
+    - Hubs : A multiport repeater.
+    - Media Converters : Converts one media signaling type to another.
+    - Modems : converts between digital and analog signal transmission
+
+## 𝐃𝐚𝐭𝐚 𝐋𝐢𝐧𝐤 (𝐋𝐚𝐲𝐞𝐫 𝟐)
 
 -
