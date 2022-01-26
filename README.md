@@ -301,3 +301,287 @@
 +---+  +-----------------------+    +=============+ +=========+ +=================+ +=====+
 
 ```
+
+
+---
+
+## 𝐓𝐨𝐩𝐢𝐜 𝐁 - 𝐓𝐂𝐏/𝐈𝐏 𝐌𝐨𝐝𝐞𝐥 : 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬
+
+- What is protocol suite?
+- Full form of TCP/IP suite?
+- How many layers? and which are they?
+- Comparison of TCP/IP with OSI model?
+- What is Link/network layer?
+- What is internet layer?
+- What is transport layer?
+- Connection-oriented delivery and connectionless delivery
+- What is application layer?
+- What is packet switching?
+- what is circuit switching?
+
+
+## 𝐓𝐨𝐩𝐢𝐜 𝐁 - 𝐓𝐂𝐏/𝐈𝐏 𝐌𝐨𝐝𝐞𝐥 : 𝐍𝐨𝐭𝐞𝐬
+
+- What is protocol suite?
+> - A collection of protocols are called as a protocol suite.
+> - For communication to take place, two computers have to have protocols in common.
+-----------------------------------------------------------------
+
+- Full form of TCP/IP - `Transmission Control Protocol/Internet Protocol`
+- TCP/IP Layers:
+> - Application layer
+> - Transport layer
+> - Internet layer
+> - Link/network layer
+
+-----------------------------------------------------------------
+
+- Comparison of TCP/IP to OSI:
+> - OSI having more layers, it requires more power and bandwidth to transmit data from each layer, where as in TCP/IP a single layer does combined job of more than one layer - which is more efficient in real world networking.
+> - Plus actual protocol stacks are simpler than the OSI model.
+> ![image](https://user-images.githubusercontent.com/68887544/151152191-12f741b2-8da2-4b1a-bac8-7935c7df395e.png)
+
+------------------------------------------------------------------
+
+- what is Link/network layer:
+> - This layer is equivalent to OSI physical and data link layers.
+> - It defines host connection to network Media.
+
+------------------------------------------------------------------
+
+- Internet layer:
+> - It provides addressing and routing function
+> - It uses several protocols:
+>   - IP (Internet protocol)
+>   - ARP (Address Resolution protocol)
+
+------------------------------------------------------------------
+
+- Transport layer:
+> - it establishes connections between the different applications that hosts communicate with.
+> - Connection less delivery of data : UDP (User Datagrapm protocol)
+> - Connection oriented delivery of data: TCP (Transmission Control protocol)
+
+------------------------------------------------------------------
+
+- Application layer:
+> - many tcp/ip services can be run at this layer.
+
+------------------------------------------------------------------
+
+#### 4 Pomodoro done: Summary
+
+> - What is protocol suite?
+> - TCP/IP
+> - connection oriented and connectionless protocol: TCP vs UDP
+> - 4 Layers
+> - difference between osi and tCp ip
+
+
+------------------------------------------------------------------
+
+# 𝐋𝐞𝐬𝐬𝐨𝐧 𝟐: 𝐄𝐱𝐩𝐥𝐚𝐢𝐧𝐢𝐧𝐠 𝐏𝐫𝐨𝐩𝐞𝐫𝐭𝐢𝐞𝐬 𝐨𝐟 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 𝐓𝐫𝐚𝐟𝐟𝐢𝐜
+
+## 𝐋𝐞𝐬𝐬𝐨𝐧 𝐎𝐛𝐣𝐞𝐜𝐭𝐢𝐯𝐞𝐬:
+
+- Explain media types and access methods
+- Deploy Ethernet Standards
+- Describe the properties on MAC addressing and ARP and configure packet sniffers/protocol analyzers to capture and examine network traffic.
+
+## 𝐓𝐨𝐩𝐢𝐜 𝐀: 𝐌𝐞𝐝𝐢𝐚 𝐓𝐲𝐩𝐞𝐬 𝐚𝐧𝐝 𝐀𝐜𝐜𝐞𝐬𝐬 𝐦𝐞𝐭𝐡𝐨𝐝𝐬 - 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬
+
+- What is transmission medium?
+- What are the types of transmission media?
+- What is Cable?
+- What is Wireless transmission media?
+- Another name for wireless transmission Media?
+- Why does digital signaling use line coding?
+- Digital signaling vs analog signaling?
+- What is bandwidth?
+- What is baseband transmission?
+- another name for bandwidth?
+- what is baud rate?
+- What is bit rate?
+- Difference between baud and bit rate?
+- What is attenuation?
+- What is noise?
+- What are different types of transmission media?
+- Copper cable is used for?
+- Fiber optic cable
+- What is MAC?
+- What is CSMA?
+- What is CSMA/CD?
+- What is CSMA/CA?
+- Why we use switches?
+- What is unicast traffic?
+- what is broadcast traffic?
+- What is VLAN?
+
+-----------------------------------------------------------------
+
+#### 5 pomodoro done: Summary
+
+- Skimmed Lesson Two
+- Read a lil about topic a and written questions.
+
+------------------------------------------------------------------
+
+## 𝐓𝐨𝐩𝐢𝐜 𝐀: 𝐌𝐞𝐝𝐢𝐚 𝐓𝐲𝐩𝐞𝐬 𝐚𝐧𝐝 𝐀𝐜𝐜𝐞𝐬𝐬 𝐦𝐞𝐭𝐡𝐨𝐝𝐬 - 𝐍𝐨𝐭𝐞𝐬
+
+- What is transmission medium?
+> - it is a physical channel via which signal travels.
+
+------------------------------------------------------------------
+
+- Types of transmission media:
+> - There are two types:
+>   - Cable : data is transmitted via cables. Also known as bounded media
+>   - Wireless : data is transmitted wireless. Also known as unbounded media.
+
+------------------------------------------------------------------
+
+- What is line coding?
+> - Line coding is a series of discrete pulses.
+------------------------------------------------------------------
+
+- Why digital signaling use line coding?
+> - Line coding makes data transmission less susceptible to interference, and it makes it easier to regenerate transmission over longer distances.
+
+------------------------------------------------------------------
+
+- Analog signaling?
+> - It means physical signal transmission.
+> - It is characterized by a smooth sine wave oscillating between maximum and minimum values over time.
+
+------------------------------------------------------------------
+
+- What is bandwidth?
+> - it is a range of frequencies available to the communication channel.
+> - Unit: Hertz (Hz)
+
+------------------------------------------------------------------
+
+- What is baseband transmission?
+> - It means complete bandwidth of the media is available to single transmission channel.
+> - It is used by digital signaling.
+
+------------------------------------------------------------------
+
+- What is data rate?
+> - the amount of information that can be transferred per second is called as data rate.
+> - it is determined by combination of signaling speed (baud) and encoding method. Distance and noise also contributes
+
+------------------------------------------------------------------
+
+- What is baud rate?
+> - Series of events inside a signal are called as symbols. a symbol can be pulse, etc.
+> - number of symbols that can be transmitted per second is called as baud rate.
+> - Unit: hertz
+
+------------------------------------------------------------------
+
+- What is bit rate?
+> - Amount of information measured in bits per second (bps) that can be transmitted is called as bit rate.
+
+------------------------------------------------------------------
+
+- What is attenuation?
+> - loss of signal strength is called attenuation.
+> - it is measured in dB (decibels)
+
+------------------------------------------------------------------
+
+- What is noise?
+> - Anything except intended signal is noise.
+> - error can be calculated using signal to noise ratio (SNR)
+------------------------------------------------------------------
+
+- Transmission Media types:
+> - Copper cable : two main types - twisted pair and coaxial (coax)
+> - Fiber optic cables
+> - wireless radio
+
+------------------------------------------------------------------
+
+#### 6 pomodoro done: summary
+
+- bandwidth
+- baseband transmission
+- data rate
+- baud rate
+- bit rate
+- transmission media type
+- attenuation
+- noise
+- transmission medium, its types
+- signaling - digital and analog
+- line coding
+
+------------------------------------------------------------------
+
+- What is MAC?
+> - MAC stands for media access control
+> - It is a method network technology uses to determine when nodes can communicate on the media and deal with possible problems
+
+------------------------------------------------------------------
+
+- What is CSMA?
+> - it is the ethernet governing protocol that governs contention and media access.
+> - Full form: `Carrier sense multiple access`
+>   - Carrier sense -- detect activity on the Media
+>   - Multiple access -- multiple nodes using the same media
+
+------------------------------------------------------------------
+
+- CSMA/CD : CSMA with collision detection
+- CSMA/CA : CSMA with collision avoidance
+
+------------------------------------------------------------------
+
+
+
+
+
+**************[TO DO: Do questions after CSMA]******************************
+
+
+------------------------------------------------------------------
+
+## 𝐓𝐨𝐩𝐢𝐜 𝐁: 𝐃𝐞𝐩𝐥𝐨𝐲 𝐄𝐭𝐡𝐞𝐫𝐧𝐞𝐭 𝐒𝐭𝐚𝐧𝐝𝐚𝐫𝐝𝐬 - 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬
+
+- What is the basic format of an Ethernet frame?
+- What is preamble and SFD?
+- What is addressing?
+- What is MTU?
+- How error checking works?
+- Describe fast ethernet?
+- Describe gigabit ethernet
+
+------------------
+****[To Do: Topic B: Notes]****
+
+------------------------
+
+
+## 𝐓𝐨𝐩𝐢𝐜 𝐂: 𝐂𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐞 𝐚𝐧𝐝 𝐦𝐨𝐧𝐢𝐭𝐨𝐫 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐢𝐧𝐭𝐞𝐫𝐟𝐚𝐜𝐞𝐬 - 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬
+
+- What is NIC?
+- Describe MAC address format.
+- What is unicast and broadcast?
+- Describe ARP
+- What are packet sniffers
+- describe tcpdump
+
+
+------------------
+****[To Do: Topic C: Notes]****
+
+------------------------
+
+
+#### 7 pomodoro done : summary
+- written questions on topic B and C
+
+-----------------------------------------------------------------
+
+# 𝐋𝐞𝐬𝐬𝐨𝐧 𝟑 - 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐢𝐧𝐠 𝐚𝐧𝐝 𝐜𝐨𝐧𝐟𝐢𝐠𝐮𝐫𝐢𝐧𝐠 𝐒𝐰𝐢𝐭𝐜𝐡𝐞𝐝 𝐧𝐞𝐭𝐰𝐨𝐫𝐤𝐬
