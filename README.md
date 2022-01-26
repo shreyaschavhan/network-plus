@@ -108,6 +108,123 @@
     - Media Converters : Converts one media signaling type to another.
     - Modems : converts between digital and analog signal transmission
 
-## 𝐃𝐚𝐭𝐚 𝐋𝐢𝐧𝐤 (𝐋𝐚𝐲𝐞𝐫 𝟐)
 
--
+---
+
+`26th January 2022`
+## 𝐓𝐨𝐩𝐢𝐜 𝐀 - 𝐎𝐒𝐈 𝐌𝐨𝐝𝐞𝐥 : 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬
+
+- What is a network?
+- What is nodes, what is links?
+- What are LANs and WANs?
+- what's the full form of OSI?
+- What are the seven layers of OSI model?
+- What is protocol?
+- What is protocol data units?
+- Describe physical layer?
+- Which devices operates at the physical layer?
+- What is data link layer?
+- What is local/hardware addresses?
+- What's the structured units where the streams of 1s and 0s arriving from the physical layer are organzied in data link layer?
+- Connectivity Devices in data link layer?
+- What is network layer?
+- What is transport layer?
+- What is session layer?
+- Describe session modes?
+- what is Presentation layer?
+- What is application layer?
+- Summarize osi model.
+
+## 𝐓𝐨𝐩𝐢𝐜 𝐀 - 𝐎𝐒𝐈 𝐌𝐨𝐝𝐞𝐥 : 𝐍𝐨𝐭𝐞𝐬
+
+- What is network?
+> - Two or more devices connected to each other where they can share information is called as a network.
+> - There are two components of a network:
+>   - Nodes: Devices connected in a network  
+>   - Links: Pathway by which they are connected
+
+-------------------------------------------------------------------
+
+- What is LAN and WAN?
+> - Network can be classified into different kind of networks depending on the size:
+>   - In a single location : LAN (Local Area Network)
+>   - connecting more than one location : WAN (Wide Area Network)
+
+-------------------------------------------------------------------
+
+- Full form of OSI : `Open System Interconnection`
+- Different layers of OSI:
+> - All people seem to need data Processing
+> - Application layer
+> - Presentation layer
+> - Session layer
+> - Transport layer
+> - Network layer
+> - Data link layer
+> - Physical layer
+
+------------------------------------------------------------------
+
+#### 1 pomodoro done! Summary:
+> - I learned network, node and links
+> - OSI model full form
+> - LAN & WAN
+> - Layers of OSI Model
+
+-------------------------------------------------------------------
+
+- Why OSI model and why layering?
+> - Because it adds structure to the data transmission.
+> - For example, when we divide a problem into steps on the basis of their functionality, understanding the problem becomes much easier, similar is the approach of OSI model.
+> - troubleshooting becomes much easier when a problem arises and it problem won't be able to affect other layers.
+
+------------------------------------------------------------------
+
+- What is protocol?
+> - Protocol is a set of rules which enables communication using structured exchange of data.
+
+-------------------------------------------------------------------
+
+- What is PDU?
+> - PDU stands for Protocol data unit.
+> - When we have to transmit the information, we need to pass the data between each layer one by one. During this process, at each layer (except physical layer), the sending device add a header to the data payload in the form of a chunk, this chunk is called as Protocol data unit i.e. PDU. And the process is called as `encapsulation`. The reverse is called as `de-encapsulation` or `decapsulation`.
+
+-------------------------------------------------------------------
+
+- Describe the physical layer?
+> - this is the layer at which the data transmission begins
+> - Nodes in a computer network is connected using a physical media, this physical media can be cables or it can be wireless, this media is called as physical layer.
+
+------------------------------------------------------------------
+
+- Devices operating in the physical layer:
+> - Transceivers
+> - Repeater
+> - Hubs
+> - Media converters
+> - Modems
+
+-------------------------------------------------------------------
+
+- Describe data link layer:
+> - Data link layer facilitates node to node data transmission.
+> - Data transmission from one physical device address to another.
+
+-------------------------------------------------------------------
+
+- Connectivity Devices in data link layer:
+> - Network adapters or network interface cards (NICs)
+> - Bridge
+> - Switches
+> - Wireless access points (APs)
+
+-------------------------------------------------------------------
+
+#### 2 Pomodoro done: Summary:
+
+- Physical layer done
+- Data link layer done
+- Why we use OSI model also done
+- Protocol and PDU also understood
+
+-------------------------------------------------------------------
