@@ -125,7 +125,7 @@
 - Which devices operates at the physical layer?
 - What is data link layer?
 - What is local/hardware addresses?
-- What's the structured units where the streams of 1s and 0s arriving from the physical layer are organzied in data link layer?
+- What's the structured units where the streams of 1s and 0s arriving from the physical layer are organized in data link layer?
 - Connectivity Devices in data link layer?
 - What is network layer?
 - What is transport layer?
@@ -228,3 +228,76 @@
 - Protocol and PDU also understood
 
 -------------------------------------------------------------------
+
+- What is network layer?
+> - It is a layer responsible for moving the data along the network of networks.
+
+-------------------------------------------------------------------
+
+- Describe transport layer:
+> - Transport layer is also known as host-to-host or end-to-end layer.
+> - It is responsible for identifying each type of network application by assigning it a port number.
+> - It is responsible for reliable data delivery.
+
+-------------------------------------------------------------------
+
+- Describe session layer:
+> - it is responsible for establishing, managing and terminating communication between nodes.
+
+------------------------------------------------------------------
+
+- 3 modes a session can work:
+> - One-way/simplex => Only one sends and other receives
+> - Two-way alternate(TWA)/half-duplex: Hosts can send messages but not simultaneously
+> - Two-way simultaneous (TWS)/duplex: Hosts can send messages simultaneously
+
+-------------------------------------------------------------------
+
+- Describe presentation layer:
+> - Presentation layer is responsible for converting data from network layer to a suitable format which can be used in application layer (and vice versa.)
+
+-------------------------------------------------------------------
+
+- Describe application layer:
+> - application layer provides interface between software and network.
+
+-------------------------------------------------------------------
+
+#### 3 Pomodoro done: summary
+
+- network layer
+- transport layer
+- session layers
+- presentation layer
+- application layer
+
+-------------------------------------------------------------------
+
+- OSI Model Summary:
+
+```
++---+  +-----------------------+    +-----------------------+  +---------------------+  +-----------------+
+| 7 |  |   Application         |    |    Application        |  |     Stateful/       |  |                 |
++---+  +-----------------------+    |    Protocol           |  |    Application      |  |                 |
++---+  +-----------------------+    |  (Web, Email, File    |  |       Layer         |  |                 |
+| 6 |  |   Presentation        |    |       Transfer...)    |  |     Security        |  |                 |
++---+  +-----------------------+    |                       |  |     Appliance       |  |   Multilayer    |
++---+  +-----------------------+    |                       |  |                     |  |    switch       |
+| 5 |  |     Session           |    |                       |  |                     |  |                 |
++---+  +-----------------------+    +-----------------------+  |                     |  |                 |
++---+  +-----------------------+    +=======================+  |                     |  |                 |
+| 4 |  |       Transport       |    |      Segment          |  |                     |  |                 |
++---+  +-----------------------+    +=======================+  +---------------------+  +-----------------+
++---+  +-----------------------+    +=============+  +================+  +====================+ +==============+
+| 3 |  |     Network           |    |   Datagram  |  |  IP Address    |  |  Basic Firewall    | |   Router     |
++---+  +-----------------------+    +=============+  +================+  +====================+ +==============+
++---+  +-----------------------+    +==========+  +========================+ +============+ +=========+
+| 2 |  |       Data link       |  --|  Frame   |  |    MAC Address / EUI   | |  Bridge    | | Switch  |
++---+  +-----------------------+  | +==========+  +========================+ +============+ +=========+
+                                  |  Network |          |  Access  |
+                                  |  Adapter |          |  point   |
++---+  +-----------------------+  | +=============+ +=========+ +=================+ +=====+
+| 1 |  |    Physical           |  --| Transceiver | |  Cable  | | Media Converter | | Hub |
++---+  +-----------------------+    +=============+ +=========+ +=================+ +=====+
+
+```
